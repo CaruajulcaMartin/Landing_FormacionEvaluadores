@@ -8,16 +8,17 @@ class VectorMap {
             zoomButtons: true,
             markersSelectable: true,
             markers: [
-				{name:"Peru",coords:[-9.1899,-75.0152]},
-				{name:"Chile",coords:[-35.6751, -71.5429]},
-				{name:"Argentina",coords:[-38.4160, -63.6166]},
-				{name:"Colombia",coords:[4.5708, -74.2973]},
-				{name:"Costa Rica",coords:[9.7489, -83.7534]},
-				{name:"Honduras",coords:[15.1999, -86.2419]},
-				{name:"Mexico",coords:[23.6345, -102.5527]},
-				{name:"Nicaragua",coords:[12.8654, -85.2072]},
-				{name:"Spain",coords:[40.4636, -3.7492]},
-                { name: "Brazil", coords: [-14.2350, -51.9253] },
+                {name:"Peru",coords:[-9.1899,-75.0152]},
+                {name:"Chile",coords:[-35.6751, -71.5429]},
+                {name:"Argentina",coords:[-38.4160, -63.6166]},
+                {name:"Colombia",coords:[4.5708, -74.2973]},
+                {name:"Costa Rica",coords:[9.7489, -83.7534]},
+                {name:"Honduras",coords:[15.1999, -86.2419]},
+                {name:"Mexico",coords:[23.6345, -102.5527]},
+                {name:"Nicaragua",coords:[12.8654, -85.2072]},
+                {name:"Spain",coords:[40.4636, -3.7492]},
+                {name:"Brazil",coords:[-14.2350, -51.9253]},
+                {name:"El Salvador",coords:[13.7942, -88.8965]}, // Agregado El Salvador
             ],
             markerStyle: {
                 initial: { fill: "#0ea5e9" },
@@ -39,67 +40,60 @@ class VectorMap {
             zoomOnScroll: true,
             zoomButtons: true,
             markers: [
-			{name:"Peru",coords:[-9.1899,-75.0152]
-			},
-			{name:"Chile",coords:[-35.6751, -71.5429]
-			},
-			{name:"Argentina",coords:[-38.4160, -63.6166]
-			},
-			{name:"Colombia",coords:[4.5708, -74.2973]
-			},
-			{name:"Costa Rica",coords:[9.7489, -83.7534]
-			},
-			{name:"Honduras",coords:[15.1999, -86.2419]
-			},
-			{name:"Mexico",coords:[23.6345, -102.5527]
-			},
-			{name:"Nicaragua",coords:[12.8654, -85.2072]
-			},
-			{name:"Spain",coords:[40.4636, -3.7492]
-			},
-            {
-                name: "Brazil",
-                coords: [-14.2350, -51.9253]
-            },
+                {name:"Peru",coords:[-9.1899,-75.0152]},
+                {name:"Chile",coords:[-35.6751, -71.5429]},
+                {name:"Argentina",coords:[-38.4160, -63.6166]},
+                {name:"Colombia",coords:[4.5708, -74.2973]},
+                {name:"Costa Rica",coords:[9.7489, -83.7534]},
+                {name:"Honduras",coords:[15.1999, -86.2419]},
+                {name:"Mexico",coords:[23.6345, -102.5527]},
+                {name:"Nicaragua",coords:[12.8654, -85.2072]},
+                {name:"Spain",coords:[40.4636, -3.7492]},
+                {name:"Brazil",coords:[-14.2350, -51.9253]},
+                {name:"El Salvador",coords:[13.7942, -88.8965]}, // Agregado El Salvador
             ],
             lines: [{
                 from: "Peru",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Chile",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Argentina",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Colombia",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Costa Rica",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Honduras",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Mexico",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Spain",
                 to: "Egypt"
             },
-			{
+            {
                 from: "Nicaragua",
                 to: "Egypt"
             },
             {
                 from: "Brazil",
+                to: "Egypt"
+            },
+            {
+                from: "El Salvador", // Agregado El Salvador
                 to: "Egypt"
             },
             ],

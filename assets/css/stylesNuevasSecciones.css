@@ -1,0 +1,50 @@
+.subtitle1{
+    max-width: 1000px;
+}
+
+.containerBloques{
+    align-items: flex-start;
+}
+
+/* Estilo para el texto en vertical */
+.etapa {
+    writing-mode: sideways-lr;
+    text-orientation: upright;
+    color: #010066;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilo para la tarjeta de información */
+.tarjeta {
+    width: 200px;
+    height:400px;
+    background-color: #c2e3f5;
+    padding: 10px;
+    border-radius: 20px;
+    
+    h2{
+        text-align: center;
+        color:#010066;
+    }
+
+    .infor-tarjeta{
+        p{
+            color: black;
+            font-size: 12px;
+        }
+    }
+}
+
+/* Flecha estilo triángulo */
+/* .flecha {
+    width: 0;
+    height: 0;
+    writing-mode: vertical-rl;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 25px solid #2952A3;
+} */
+
