@@ -2114,7 +2114,6 @@ textarea.is-invalid {
   vertical-align: middle;
   display: inline-block;
   border: none;
-  text-transform: uppercase;
   text-align: center;
   background-color: var(--theme-color);
   color: var(--white-color);
@@ -2127,7 +2126,7 @@ textarea.is-invalid {
   border-radius: 5px;
 }
 
-.th-btn:before {
+/* .th-btn:before {
   content: "";
   position: absolute;
   height: 0%;
@@ -2141,7 +2140,7 @@ textarea.is-invalid {
   z-index: -1;
   -webkit-transition: 0.7s ease;
   transition: 0.7s ease;
-}
+} */
 
 .th-btn:hover, .th-btn.active {
   color: var(--white-color);
@@ -2180,24 +2179,26 @@ textarea.is-invalid {
 }
 
 .th-btn.style4 {
-  background-color: transparent;
-  color: var(--theme-color);
-  border: 1px solid var(--theme-color);
-  padding: 19.5px 27px;
+  background-color: #5FB8E4;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 20px;
+  color: #010066;
+  padding: 18px;
   box-shadow: none;
 }
 
-.th-btn.style4:before {
+/* .th-btn.style4:before {
   background-color: var(--white-color);
-}
+} */
 
 .th-btn.style4:hover {
-  color: var(--white-color);
+  background-color: #8ccced;
 }
 
-.th-btn.style4:hover:before {
+/* .th-btn.style4:hover:before {
   background-color: var(--theme-color);
-}
+} */
 
 .th-btn.style5 {
   background-color: var(--title-color);
