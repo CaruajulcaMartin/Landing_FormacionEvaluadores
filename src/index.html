@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JS Vector World Map - FlexMap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured Tailwind CSS jsVectorMap -  World Vector Map Setup Template. Preline" name="description" />
+    <meta content="MyraStudio" name="author" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!-- Tabler Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <!-- plugin css -->
+    <link href="assets/plugins/jsvectormap/jsvectormap.min.css" rel="stylesheet" type="text/css">
+    <!-- stylesheet -->
+    <link href="assets/css/tailwind.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="bg-zinc-50/50 divide-y divide-dashed divide-zinc-200">
+
+    <section class="py-14">
+        <div class="container">
+            <div class="lg:flex justify-center">
+                <div class="lg:w-2/3 mx-2">
+                    <div class="text-center">
+                        <h1 class="text-4xl font-semibold leading-[50px] tracking-wide text-sky-500 mb-10">
+                            jsVectorMap -  World Vector Map Setup
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20">
+        <div class="container">
+            <div class="text-2xl text-center font-semibold mb-10"> World Vector Map Demo</div>
+
+            <div class="flex flex-col gap-6">
+
+                <div class="bg-white shadow rounded h-fit">
+                    <div class="p-6">
+                        <h4 class="text-lg font-medium text-gray-700 mb-4">World Vector Map</h4>
+
+                        <div class="mb-3">
+                            <div id="world-map-markers" class="h-96"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded h-fit">
+                    <div class="p-6">
+                        <h4 class="text-lg font-medium text-gray-700 mb-4">World Vector Map with Markers Line</h4>
+
+                        <div class="mb-3">
+                            <div id="world-map-markers-line" class="h-96"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow rounded h-fit">
+                    <div class="p-6">
+                        <h4 class="text-lg font-medium text-gray-700 mb-4">World Vector Map with Image Markers</h4>
+                        <div id="world-map-markers-image" class="h-96">
+                        </div>
+                    </div>
+                </div><!-- end card -->
+
+            </div><!-- end grid-->
+        </div>
+    </section>
+
+    <script src="assets/plugins/preline/preline.js"></script>
+
+    <script src="assets/js/theme.js"></script>
+
+    <!-- Vector Map Js -->
+    <script src="assets/plugins/jsvectormap/jsvectormap.min.js"></script>
+    <script src="assets/plugins/jsvectormap/maps/world-merc.js"></script>
+    <script src="assets/plugins/jsvectormap/maps/world.js"></script>
+
+    <!-- Vector Map Demo js-->
+    <script src="assets/js/maps-vector.js"></script>
+</body>
+
+</html>
