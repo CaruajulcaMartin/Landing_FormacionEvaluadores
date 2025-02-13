@@ -38,35 +38,109 @@
     }
 }
 
-
 .containerInformacion{
-    padding-left: 60px;
+    padding-left: 50px;
 }
 
-.indicaciones{
-    font-size: 18px;
-    max-width: 1000px;
+/*estilos para Aplica al Programa de Formación*/
+/* Fondo y estructura general */
+.containerAplicacion {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00122a;
+    justify-content: space-between;
 }
 
-.containerImg{
-    max-width: 720px;
+/* Contenedor de imagen */
+.imgContainer {
+    width: 50%;
+    height: 100%;
 }
 
-.containerInformacion1{
-    background-color: #00112A;
-    padding: 10px;
+.imgPrograma {
+    width: 100%;
+    height: 100%;
+}
+
+/* Contenedor de información */
+.infoContainer {
+    width: 100%;
+    padding: 2rem 4rem 2rem 0;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
 
-    h1{
-        font-size: 36px;
+/* Estilos del título */
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.infoContainerList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 4rem;
+}
+
+.numInfo{
+    color : #38bdf8;
+}
+
+.info{
+    margin: 0;
+}
+
+/* Estilos del botón */
+.boton {
+    background-color: #5FB8E4;
+    color: #010066;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #8ccced;
+    color: #010066;
+}
+
+/* Estilos de enlaces */
+.enlace {
+    color: #38bdf8;
+    transition: color 0.3s;
+}
+
+.enlace:hover {
+    color: #0ea5e9;
+    text-decoration: underline;
+}
+
+/*mediaqueries*/
+/*estilos para tablet*/
+@media (max-width: 768px) {
+    .imgContainer {
+        width: 100%;
     }
 
-    .infomacionList{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding-left: 50px;
+    .infoContainer {
+        padding: 2rem;
+        max-width: 100%;
+    }
+
+    .infoContainerList {
+        padding-right: 0;
+    }
+}
+
+/*estilos para mobile*/
+@media (max-width: 480px) {
+    .infoContainerList {
+        padding-right: 0;
     }
 }
