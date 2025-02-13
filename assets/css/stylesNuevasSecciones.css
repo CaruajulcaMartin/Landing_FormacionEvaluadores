@@ -42,6 +42,32 @@
     padding-left: 50px;
 }
 
+/*estilos para NUEVA PROPUESTA*/
+.tarjeta1 {
+    width: 230px;
+    height:440px;
+    background-color: #c2e3f5;
+    padding: 15px;
+    border-radius: 20px;
+    
+    h2{
+        text-align: center;
+        color:#010066;
+    }
+
+    .infor-tarjeta1{
+        p{
+            color: black;
+            font-size: 14px;
+        }
+
+        .p1{
+            padding-top: 10px;
+        }
+    }
+}
+
+
 /*estilos para Aplica al Programa de Formación*/
 /* Fondo y estructura general */
 .containerAplicacion {
@@ -84,17 +110,19 @@
 .infoContainerList {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     padding-right: 4rem;
+
+    .numInfo{
+        color : #38bdf8;
+    }
+    
+    .info{
+        margin: 0;
+        line-height: normal;
+    }
 }
 
-.numInfo{
-    color : #38bdf8;
-}
-
-.info{
-    margin: 0;
-}
 
 /* Estilos del botón */
 .boton {
@@ -122,6 +150,22 @@
 }
 
 /*mediaqueries*/
+/*estilos para desktop (1024px)*/
+@media (max-width: 1024px) {
+    .imgContainer {
+        width: 100%;
+    }
+
+    .infoContainer {
+        padding: 2rem;
+        max-width: 100%;
+    }
+
+    .infoContainerList {
+        padding-right: 0;
+    }
+}
+
 /*estilos para tablet*/
 @media (max-width: 768px) {
     .imgContainer {
