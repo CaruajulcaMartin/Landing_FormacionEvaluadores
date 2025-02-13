@@ -38,13 +38,35 @@
     }
 }
 
-/* Flecha estilo triángulo */
-/* .flecha {
-    width: 0;
-    height: 0;
-    writing-mode: vertical-rl;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 25px solid #2952A3;
-} */
 
+.containerInformacion{
+    padding-left: 60px;
+}
+
+.indicaciones{
+    font-size: 18px;
+    max-width: 1000px;
+}
+
+.containerImg{
+    max-width: 720px;
+}
+
+.containerInformacion1{
+    background-color: #00112A;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    h1{
+        font-size: 36px;
+    }
+
+    .infomacionList{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding-left: 50px;
+    }
+}
