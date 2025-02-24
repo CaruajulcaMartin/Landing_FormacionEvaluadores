@@ -1,9 +1,11 @@
 .subtitle1{
-    max-width: 1000px;
+    max-width: 800px;
+    text-align: justify;
 }
 
 .containerBloques{
     align-items: flex-start;
+    justify-content: center;
 }
 
 /* Estilo para el texto en vertical */
@@ -11,7 +13,7 @@
     writing-mode: sideways-lr;
     text-orientation: upright;
     color: #010066;
-    padding: 15px 10px;
+    padding-top: 15px;
     border-radius: 10px;
     text-align: center;
     font-size: 16px;
@@ -19,8 +21,8 @@
 
 /* Estilo para la tarjeta de información */
 .tarjeta {
-    width: 200px;
-    height:400px;
+    width: 170px;
+    height:420px;
     background-color: #c2e3f5;
     padding: 10px;
     border-radius: 20px;
@@ -28,22 +30,56 @@
     h2{
         text-align: center;
         color:#010066;
+        font-size: 18px;
+        margin: 20px 0 10px 0;
+    }
+
+    .infor-tarjeta1{
+        padding-top: 20px;
     }
 
     .infor-tarjeta{
+        line-height: normal;
+
         p{
             color: black;
             font-size: 12px;
+            margin-bottom: 0;
+            padding-top: 10px;
         }
     }
 }
 
 .containerInformacion{
-    padding-left: 50px;
+    /* padding-left: 50px; */
+
+    .informacion{
+        line-height: normal;
+
+        p{
+            margin: 0;
+        }
+    }
 }
 
+@media (max-width: 768px) {
+    
+    .containerInformacion{
+        padding-left: 0;
+
+        .informacion{
+            line-height: normal;
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+} 
+
+
 /*estilos para NUEVA PROPUESTA*/
-.tarjeta1 {
+/* .tarjeta1 {
     width: 230px;
     height:440px;
     background-color: #c2e3f5;
@@ -65,7 +101,7 @@
             padding-top: 10px;
         }
     }
-}
+} */
 
 
 /*estilos para Aplica al Programa de Formación*/
