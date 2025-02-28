@@ -146,10 +146,26 @@
 	Header Area
 ==============================-->
 
-    <div class="th-hero-wrapper hero-3" id="hero">
+    <div class="th-hero-wrapper hero-3  bg-blue-800" id="hero">
+        <nav class="nav justify-content-center navbar navbar navbar-expand-lg bg-body-tertiary">
+            <a class="nav-link text-white" href="#">Inicio</a>
+            <span class="text-blue-500">|</span>
+            <a class="nav-link text-white" href="#queEsPFEV">¿Qué es el PFEV?</a>
+            <span class="text-blue-500">|</span>
+            <a class="nav-link text-white" href="#requisitosEvaluador">Requisitos</a>
+            <span class="text-blue-500">|</span>
+            <a class="nav-link text-white" href="#cronograma">Cronograma</a>
+            <span class="text-blue-500">|</span>
+            <a class="nav-link text-white" href="#beneficios">Beneficios</a>
+            <span class="text-blue-500">|</span>
+            <a class="nav-link text-white" href="#testimonios">Testimonios</a>
+            <span class="text-blue-500">|</span>
+            <a class="nav-link text-white" href="#aplicaPrograma">Postula Aquí</a>
+        </nav>
+        
+
         <div class="hero-slider-2 th-carousel" data-fade="true" data-slide-show="1" data-md-slide-show="1"
             data-arrows="true">
-
 
             <div class="th-hero-slide">
                 <div class="th-hero-bg"
@@ -198,7 +214,7 @@ About Area
 ==============================-->
 <div class="overflow-hidden" id="about-sec" class="container" data-bg-src="assets/img/bg/about-3-bg.png">
 
-    <div class="container">
+    <div class="container" id="queEsPFEV">
         <div class="row align-items-center" style="justify-content: space-around;">
             <div class="text-center mb-4" style="padding-top: 30px;">
                 <h2>¿Qué es el PFEV ICACIT 2025?</h2>
@@ -237,7 +253,6 @@ Service Area
 ==============================-->
 
     <section>
-
         <div class="container">
             <div style="padding: 50px 0px 0px 0px">
                 <div class="row align-items-center">
@@ -506,7 +521,7 @@ Feature Area
 Cronograma  
 ==============================-->
     <section>
-        <div class="section flex flex-col p-2 items-center gap-4">
+        <div class="section flex flex-col p-2 items-center gap-4" id="cronograma">
             <!-- Título de la sección -->
             <div class="text-center mt-4">
                 <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold">
@@ -546,8 +561,7 @@ Cronograma
                 <div class="flex items-center space-x-2">
                     <!-- Etapa 2 (Texto en vertical) -->
                     <div class="flex flex-col">
-                        <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZRJREFUSEvd10FLFWEUxvGfEimIW1u1dunSTaJE+5ZFaZtARNqIIIFtCqydi0DwAxQUgfQFwmzbIlduBFcpbooikJAi3wPvhSFqnHvvOFccGBjeGc7/nDPzPueZPj06+nrEVQYexgze4qDuBMvAL3AX3zGHV3XCy8DvMVmAbeA+vtWRQDvg4B1iGu+6hVcB7+BLgk0UYOtYxFGnCZSBNzGVzmj59fSuF7CCwQzbw2187ARepeKtnEDEH8VrjGXYbzzFE/xqJ4F2wRH7EpYT6FG+jrVPuJV2wW5VeCfgVuyoOqqPLsTxM50P8Rx/TkugG3DEvpxbHe+/P8M+4A72y+Ddgluxx/EGV/NC7PUHePk/eF3giD+E1SSvs1VEp05wi3cDIbdX8sI2oiPHxeovBLgnrW784+rJdmpcQEIyQy5DNuO6Ecn815B4hsdnNSSKY3GgqbEYRuArrhUEYC2ZgKWzMgJ/e67gNmp9WoU2ZvbCT99M3uoH5rP+njZmK98v0+oR3Mt++nPliBUfPJe/MBVz7+yxE6bGdB8sKEVTAAAAAElFTkSuQmCC" />
+                        <img src="assets/img/flecha-celeste.png" style="width: 35px;"/>
                         <span class="etapa font-semibold">Etapa 2</span>
                     </div>
 
@@ -568,8 +582,7 @@ Cronograma
                 <div class="flex items-center space-x-2">
                     <!-- Etapa 3 (Texto en vertical) -->
                     <div class="flex flex-col">
-                        <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZRJREFUSEvd10FLFWEUxvGfEimIW1u1dunSTaJE+5ZFaZtARNqIIIFtCqydi0DwAxQUgfQFwmzbIlduBFcpbooikJAi3wPvhSFqnHvvOFccGBjeGc7/nDPzPueZPj06+nrEVQYexgze4qDuBMvAL3AX3zGHV3XCy8DvMVmAbeA+vtWRQDvg4B1iGu+6hVcB7+BLgk0UYOtYxFGnCZSBNzGVzmj59fSuF7CCwQzbw2187ARepeKtnEDEH8VrjGXYbzzFE/xqJ4F2wRH7EpYT6FG+jrVPuJV2wW5VeCfgVuyoOqqPLsTxM50P8Rx/TkugG3DEvpxbHe+/P8M+4A72y+Ddgluxx/EGV/NC7PUHePk/eF3giD+E1SSvs1VEp05wi3cDIbdX8sI2oiPHxeovBLgnrW784+rJdmpcQEIyQy5DNuO6Ecn815B4hsdnNSSKY3GgqbEYRuArrhUEYC2ZgKWzMgJ/e67gNmp9WoU2ZvbCT99M3uoH5rP+njZmK98v0+oR3Mt++nPliBUfPJe/MBVz7+yxE6bGdB8sKEVTAAAAAElFTkSuQmCC" />
+                        <img src="assets/img/flecha-celeste.png" style="width: 35px;"/>
                         <span class="etapa font-semibold">Etapa 3</span>
                     </div>
 
@@ -590,8 +603,7 @@ Cronograma
                 <div class="flex items-center space-x-2">
                     <!-- Etapa 4 (Texto en vertical) -->
                     <div class="flex flex-col">
-                        <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZRJREFUSEvd10FLFWEUxvGfEimIW1u1dunSTaJE+5ZFaZtARNqIIIFtCqydi0DwAxQUgfQFwmzbIlduBFcpbooikJAi3wPvhSFqnHvvOFccGBjeGc7/nDPzPueZPj06+nrEVQYexgze4qDuBMvAL3AX3zGHV3XCy8DvMVmAbeA+vtWRQDvg4B1iGu+6hVcB7+BLgk0UYOtYxFGnCZSBNzGVzmj59fSuF7CCwQzbw2187ARepeKtnEDEH8VrjGXYbzzFE/xqJ4F2wRH7EpYT6FG+jrVPuJV2wW5VeCfgVuyoOqqPLsTxM50P8Rx/TkugG3DEvpxbHe+/P8M+4A72y+Ddgluxx/EGV/NC7PUHePk/eF3giD+E1SSvs1VEp05wi3cDIbdX8sI2oiPHxeovBLgnrW784+rJdmpcQEIyQy5DNuO6Ecn815B4hsdnNSSKY3GgqbEYRuArrhUEYC2ZgKWzMgJ/e67gNmp9WoU2ZvbCT99M3uoH5rP+njZmK98v0+oR3Mt++nPliBUfPJe/MBVz7+yxE6bGdB8sKEVTAAAAAElFTkSuQmCC" />
+                        <img src="assets/img/flecha-celeste.png" style="width: 35px;"/>
                         <span class="etapa font-semibold">Etapa 4</span>
                     </div>
 
@@ -612,8 +624,7 @@ Cronograma
                 <div class="flex items-center space-x-2">
                     <!-- Etapa 5 (Texto en vertical) -->
                     <div class="flex flex-col">
-                        <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZRJREFUSEvd10FLFWEUxvGfEimIW1u1dunSTaJE+5ZFaZtARNqIIIFtCqydi0DwAxQUgfQFwmzbIlduBFcpbooikJAi3wPvhSFqnHvvOFccGBjeGc7/nDPzPueZPj06+nrEVQYexgze4qDuBMvAL3AX3zGHV3XCy8DvMVmAbeA+vtWRQDvg4B1iGu+6hVcB7+BLgk0UYOtYxFGnCZSBNzGVzmj59fSuF7CCwQzbw2187ARepeKtnEDEH8VrjGXYbzzFE/xqJ4F2wRH7EpYT6FG+jrVPuJV2wW5VeCfgVuyoOqqPLsTxM50P8Rx/TkugG3DEvpxbHe+/P8M+4A72y+Ddgluxx/EGV/NC7PUHePk/eF3giD+E1SSvs1VEp05wi3cDIbdX8sI2oiPHxeovBLgnrW784+rJdmpcQEIyQy5DNuO6Ecn815B4hsdnNSSKY3GgqbEYRuArrhUEYC2ZgKWzMgJ/e67gNmp9WoU2ZvbCT99M3uoH5rP+njZmK98v0+oR3Mt++nPliBUfPJe/MBVz7+yxE6bGdB8sKEVTAAAAAElFTkSuQmCC" />
+                        <img src="assets/img/flecha-celeste.png" style="width: 35px;"/>
                         <span class="etapa font-semibold">Etapa 5</span>
                     </div>
 
@@ -635,8 +646,7 @@ Cronograma
                 <div class="flex items-center space-x-2">
                     <!-- Etapa 6 (Texto en vertical) -->
                     <div class="flex flex-col">
-                        <img
-                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAZRJREFUSEvd10FLFWEUxvGfEimIW1u1dunSTaJE+5ZFaZtARNqIIIFtCqydi0DwAxQUgfQFwmzbIlduBFcpbooikJAi3wPvhSFqnHvvOFccGBjeGc7/nDPzPueZPj06+nrEVQYexgze4qDuBMvAL3AX3zGHV3XCy8DvMVmAbeA+vtWRQDvg4B1iGu+6hVcB7+BLgk0UYOtYxFGnCZSBNzGVzmj59fSuF7CCwQzbw2187ARepeKtnEDEH8VrjGXYbzzFE/xqJ4F2wRH7EpYT6FG+jrVPuJV2wW5VeCfgVuyoOqqPLsTxM50P8Rx/TkugG3DEvpxbHe+/P8M+4A72y+Ddgluxx/EGV/NC7PUHePk/eF3giD+E1SSvs1VEp05wi3cDIbdX8sI2oiPHxeovBLgnrW784+rJdmpcQEIyQy5DNuO6Ecn815B4hsdnNSSKY3GgqbEYRuArrhUEYC2ZgKWzMgJ/e67gNmp9WoU2ZvbCT99M3uoH5rP+njZmK98v0+oR3Mt++nPliBUfPJe/MBVz7+yxE6bGdB8sKEVTAAAAAElFTkSuQmCC" />
+                        <img src="assets/img/flecha-celeste.png" style="width: 35px;"/>
                         <span class="etapa font-semibold">Etapa 6</span>
                     </div>
 
@@ -840,7 +850,7 @@ Cronograma
 
 
     <!-- seccion: beneficios -->
-    <section class="feature-section style-2 style-4 padding-tb pb-0" style="background: #ffff;">
+    <section class="feature-section style-2 style-4 padding-tb pb-0" style="background: #ffff;" id="beneficios">
         <div class="container">
             <div style="padding: 50px 0px 0px 0px">
             </div>
@@ -962,7 +972,7 @@ Cronograma
     <!--==============================
 Product Area  
 ==============================-->
-    <section class="bg-top-center">
+    <section class="bg-top-center" id="testimonios">
         <div class="container">
             <div style="padding: 40px 0px 0px 0px">
             </div>
@@ -1252,7 +1262,7 @@ Process Area
 Admission Area  
 ==============================-->
     <!-- seccion: Aplica al Programa de Formación -->
-        <section class="containerAplicacion">
+        <section class="containerAplicacion" id="aplicaPrograma">
             <!-- Contenedor de la imagen -->
             <div class="imgContainer">
                 <img src="assets/img/progrma_evaluadores_ICACIT.jpg" 
@@ -1285,7 +1295,7 @@ Admission Area
                         <span class="font-bold numInfo">2.</span>
                         <a href="https://formulario-inscripcion-icacit.vercel.app/" 
                             class="boton" target="_blank">
-                            Realiza tu aplicación
+                            Aplica aquí
                         </a>
                     </div>
     
@@ -1316,7 +1326,6 @@ Admission Area
                         <div style="padding: 50px 0px 0px 0px">
                         </div>
 
-
                         <div class="col-md-6 col-xl-auto">
                             <span style="font-size: 24px;">Síguenos en redes sociales</span>
                         </div>
@@ -1333,11 +1342,15 @@ Admission Area
                                 <a href="https://twitter.com/icacitPeru" target="_blank"><img src="assets/img/X.png"
                                         alt="icon" style="width: 50px; color:#5FB8E4;"> twitter.com | @icacitPeru
                                     &nbsp;</a>
+                                <a href="https://www.instagram.com/icacit.org.pe/" target="_blank"><img src="assets/img/instagram-ICACIT.png"
+                                        alt="icon" style="width: 50px; color:#5FB8E4;"> instagram.com | icacit.org.pe
+                                    &nbsp;</a>
                                 <a href="https://www.youtube.com/@icacitperu518" target="_blank"><img
                                         src="assets/img/YouTube.png" alt="icon" style="width: 50px; color:#5FB8E4;">
                                     youtube.com | ICACIT Peru </a>
                             </div>
                         </div>
+                        
                         <div style="padding: 50px 0px 0px 0px">
                         </div>
                     </div>

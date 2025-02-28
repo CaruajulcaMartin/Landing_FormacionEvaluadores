@@ -1,3 +1,13 @@
+
+/*estilos para el NAVBAR*/
+.navbar{
+    background-color: #010066;
+
+    a{
+        font-size: 20px;
+    }
+}
+
 .subtitle1{
     max-width: 800px;
     text-align: justify;
