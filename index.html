@@ -296,7 +296,7 @@ Service Area
                             </p>
 
                             <div
-                                style="display: flex; justify-content: center; gap: 100px; text-align: left; font-size: 18px;">
+                                style="display: flex; justify-content: space-evenly; gap: 100px; text-align: left; font-size: 18px;">
                                 <ul style="list-style-type: disc; padding: 0; margin: 0;">
                                     <li>Argentina</li>
                                     <li>Brasil</li>
@@ -570,7 +570,7 @@ Cronograma
         <div class="section flex flex-col p-2 items-center gap-4" id="cronograma">
             <!-- Título de la sección -->
             <div class="text-center mt-4">
-                <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold">
+                <h2 class="md:text-5xl lg:text-6xl font-bold" style="font-size: 28px;">
                     Cronograma del PFEV 2025
                 </h2>
                 <p class="md:text-xl lg:text-2xl max-w-4xl mx-auto subtitle1">
@@ -896,7 +896,87 @@ Cronograma
 
 
     <!-- seccion: beneficios -->
-    <section class="feature-section style-2 style-4 padding-tb pb-0" style="background: #ffff;" id="beneficios">
+    <section class="benefits-section">
+        <h2 class="title">Beneficios de ser Evaluador ICACIT</h2>
+        
+        <div class="benefits-container">
+            <div class="benefits-group">
+                <div class="benefit-item flex-row-reverse">
+                    <div class="icon-container">
+                        <img src="assets/img/AcreditadoraInternacional.png" alt="icon" class="icon">
+                    </div>
+                    <div class="text-content">
+                        <h3>Acreditadora Internacional</h3>
+                        <p>Ser parte de una Agencia Acreditadora internacional de prestigio.</p>
+                    </div>
+                </div>
+                <div class="benefit-item flex-row-reverse">
+                    <div class="icon-container">
+                        <img src="assets/img/agente_cambio.png" alt="icon" class="icon">
+                    </div>
+                    <div class="text-content">
+                        <h3>Agente de cambio</h3>
+                        <p>Ser protagonista de la calidad en educación superior de Latinoamérica.</p>
+                    </div>
+                </div>
+                <div class="benefit-item flex-row-reverse">
+                    <div class="icon-container">
+                        <img src="assets/img/aporte_profesion.png" alt="icon" class="icon">
+                    </div>
+                    
+                    <div class="text-content">
+                        <h3>Aporte a su profesión</h3>
+                        <p>Ser un referente en su profesión para la formación de los futuros profesionales.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <video width="580" height="350"  autoplay="true" muted="true" loop="true">
+                <source src="assets/img/VideoIngenieroBeneficios_2025.mp4" type="video/mp4">
+                <p>Tu navegador no admite la etiqueta de video.</p>
+            </video>
+            <!-- <div class="video-container justify-center">
+                <video autoplay muted loop class="video">
+                    <source src="assets/img/VideoIngenieroBeneficios_2.mp4" type="video/mp4">
+                </video>
+            </div> -->
+            
+            <div class="benefits-group">
+                <div class="benefit-item">
+                    <div class="icon-container">
+                        <img src="assets/img/NetworkingInternacional.png" alt="icon" class="icon">
+                    </div>
+                    <div class="text-content">
+                        <h3>Networking Internacional</h3>
+                        <p>Generar contactos y relaciones profesionales a nivel internacional.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-container">
+                        <img src="assets/img/DesarrolloProfesional.png" alt="icon" class="icon">
+                    </div>
+                    
+                    <div class="text-content">
+                        <h3>Desarrollo Profesional</h3>
+                        <p>Acceder a programas / capacitaciones de desarrollo profesional.</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <div class="icon-container">
+                        <img src="assets/img/PremiosReconocimientos.png" alt="icon" class="icon">
+                    </div>
+                    
+                    <div class="text-content">
+                        <h3>Premios y Reconocimientos</h3>
+                        <p>Oportunidad de aplicar a premios y reconocimientos ICACIT.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="feature-section style-2 style-4 padding-tb pb-0" style="background: #ffff;" id="beneficios">
         <div class="container">
             <div style="padding: 50px 0px 0px 0px">
             </div>
@@ -988,14 +1068,11 @@ Cronograma
                                 </div>
                             </div>
 
-
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 col-12 order-lg-1">
                         <div class="feature-thumb">
                             <div class="abs-thumb">
-                                <!--img src="assets/img/Beneficios.png" autoplay="true" muted="true" loop="true">
-								<video src="assets/img/ingeniero.mp4" width=320  height=240 controls poster="vistaprevia.jpg"-->
                                 <video width="640" height="360" autoplay="true" muted="true" loop="true">
                                     <source src="assets/img/VideoIngenieroBeneficios_2.mp4" type="video/mp4">
                                     <p>Tu navegador no admite la etiqueta de video.</p>
@@ -1006,17 +1083,19 @@ Cronograma
                 </div>
             </div>
 
-
             <div style="padding: 40px 0px 0px 0px">
             </div>
 
 
         </div>
-    </section>
+    </section> 
+    
 
     <!--==============================
 Product Area  
 ==============================-->
+    
+    
     <section class="bg-top-center" id="testimonios">
         <div class="container">
             <div style="padding: 40px 0px 0px 0px">

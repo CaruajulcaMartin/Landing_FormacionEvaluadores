@@ -227,7 +227,6 @@
 .social-title {
     font-size: 22px;
     font-weight: bold;
-    color: #010066;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -247,7 +246,6 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #010066;
     font-size: 18px;
     gap: 10px;
     transition: transform 0.2s ease-in-out;
@@ -303,7 +301,7 @@
 h2 {
     font-size: 28px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -357,5 +355,157 @@ h2 {
 
     h2 {
         text-align: center;
+    }
+}
+
+
+/*estilos beneficios*/
+.benefits-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.benefits-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.benefits-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    min-width: 250px;
+    max-width: 350px;
+    gap: 20px;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.benefit-item:hover {
+    background-color: #0d5ef4;
+}
+
+.benefit-item:hover .text-content h3,
+.benefit-item:hover .text-content p {
+    color: #ffffff;
+}
+
+.icon-container {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebf2ff;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    transition: all 0.3s ease;
+}
+
+.text-content {
+    text-align: left;
+    flex: 1;
+}
+
+.text-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.text-content p {
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.video-container {
+    width: 30%;
+    min-width: 250px;
+    max-width: 350px;
+    display: flex;
+    align-items: center; /* Centra el video verticalmente */
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media (max-width: 1024px) {
+    .benefits-container {
+        justify-content: space-around;
+    }
+
+    .video-container {
+        display: none;
+    }
+
+    .benefits-group {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .benefits-group {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .benefit-item {
+        flex-direction: row;
+    }
+
+    .icon-container {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .text-content h3 {
+        font-size: 16px;
+    }
+
+    .text-content p {
+        font-size: 12px;
+    }
+
+    .benefit-item {
+        padding: 10px;
     }
 }
