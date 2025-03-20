@@ -89,31 +89,6 @@
 } 
 
 
-/*estilos para NUEVA PROPUESTA*/
-/* .tarjeta1 {
-    width: 230px;
-    height:440px;
-    background-color: #c2e3f5;
-    padding: 15px;
-    border-radius: 20px;
-    
-    h2{
-        text-align: center;
-        color:#010066;
-    }
-
-    .infor-tarjeta1{
-        p{
-            color: black;
-            font-size: 14px;
-        }
-
-        .p1{
-            padding-top: 10px;
-        }
-    }
-} */
-
 
 /*estilos para Aplica al Programa de Formación*/
 /* Fondo y estructura general */
@@ -312,3 +287,75 @@
     }
 }
 
+/*estilos*/
+/* Sección principal */
+#queEsPFEV {
+    padding: 40px 20px;
+}
+
+/* Contenedor general */
+/* .container {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+/* Título centrado */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal (flexbox) */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+/* Estilos para la imagen */
+/* .image-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.image-container img {
+    width: 400px;
+    max-height: 266px;
+    object-fit: contain; /* Mantiene proporciones sin cortar la imagen */
+}
+
+/* Estilos para el texto */
+.text-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.text-container p {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.85;
+    margin: 0;
+}
+
+
+@media (max-width: 992px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container,
+    .text-container {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
