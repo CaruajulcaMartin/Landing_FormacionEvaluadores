@@ -2179,15 +2179,25 @@ textarea.is-invalid {
 }
 
 .th-btn.style4 {
-  background-color: #5FB8E4;
+  background-color: #5FB8E4; /* Mantiene el color original */
   text-transform: none;
   font-weight: normal;
   font-size: 20px;
   color: #010066;
   padding: 18px;
   border-radius: 15px;
-  box-shadow: none;
+  box-shadow: 4px 4px 6px rgba(255, 255, 255, 0.3), /* Sombra clara exterior */
+              3px 3px 6px rgba(0, 0, 0, 0.15); /* Sombra sutil para profundidad */
+  transition: all 0.2s ease-in-out;
 }
+
+.th-btn.style4:active {
+  transform: scale(0.95);
+  box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.2), /* Reduce la sombra al hacer clic */
+              2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
 
 /* .th-btn.style4:before {
   background-color: var(--white-color);
@@ -11552,15 +11562,22 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
 }
 
 .hero-style3 .hero-subtitle {
-  font-size: 44px;
-  font-weight: 500;
+  font-size: 28px;
+  font-weight: normal;
   text-transform: capitalize;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   margin-top: 2px;
   /* Medium Large devices */
   /* Large devices */
   /* Small devices */
   /* Extra small devices */
+}
+
+.hero-style3 .hero-subtitle1 {
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  /* margin-top: 2px; */
 }
 
 @media (max-width: 1299px) {
