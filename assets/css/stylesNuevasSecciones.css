@@ -440,28 +440,28 @@ h2 {
     transition: all 0.3s ease;
 }
 
-.video-container {
+/* .video-container {
     width: 30%;
     min-width: 250px;
     max-width: 350px;
     display: flex;
-    align-items: center; /* Centra el video verticalmente */
+    align-items: center;
     justify-content: center;
-}
+} */
 
-.video {
+/* .video {
     width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
-}
+} */
 
 @media (max-width: 1024px) {
     .benefits-container {
         justify-content: space-around;
     }
 
-    .video-container {
+    video {
         display: none;
     }
 
